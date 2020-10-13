@@ -1,4 +1,4 @@
-body.initial {
+body.index {
     background-color: #05376C;
 }
 
@@ -19,9 +19,16 @@ img.language {
     /*padding: 30px;*/
 }
 
-img#logo-sage, img#logo-fapesp {
-    max-width:100px;
-    max-height:100px;
+img#logo-sage {
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+img#logo-fapesp {
+    max-width:110px;
+    max-height:110px;
     width: auto;
     height: auto;
 }
