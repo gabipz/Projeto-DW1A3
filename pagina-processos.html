@@ -1,0 +1,103 @@
+<!-- Gustavo -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>SAGe - Página Inicial</title>
+		<link rel="shortcut icon" href="img/icon-sage.png">
+		<link rel ="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="sweetalert2/dist/sweetalert2.min.js"></script>
+		<script src="js/sweetalert2.js"></script>
+		<link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+		<script type="text/javascript" src="js/sage-fapesp.js"></script>
+    </head>
+    <body class="processos">
+
+        <section id="linguagem" class="row justify-content-end">	
+			<section class="col-12 col-sm-3 col-md-3 col-xs-3">
+				<div class="float-sm-right mr-sm-3">
+					<a href="#" class="text-white">English
+					<img class="language" src="img/global-white.svg"  alt="language"></a>
+				</div>
+			</section>
+		</section>
+
+		<div class="row" class="titulo-pagina-inicial" class="col-12 col-sm-3 col-md-3 col-xs-3">
+			<div  class="figura-barra-titulo">
+				<a href="pagina-inicial.html"><img id="logo-sage" src="img/logo-sage.png" class="rounded float-left" alt="Logo SAGe"></a>
+			</div>
+			<div class="titulo-barra-titulo" class="col-4">
+				<h3 class="text-white" class="align-middle">Sistema de Apoio à Gestão de Fomento</h3>
+			</div>
+			<div class="nome-barra-titulo" class="col-2">
+				<p class="text-white" class="align-middle">Bem vindo(a), Administrador do Sistema</p>
+			</div>
+			<div class="user-barra-titulo" class="col-4" class="row justify-content-end">
+				<img id="icone-user" src="img/icon_user.png" class="rounded float-right" alt="Foto de Perfil">
+			</div>
+		</div>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<span class="navbar-toggler-icon"></span>
+			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="pagina-inicial.html">Página Inicial</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Meus Dados</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pagina-processos.html">Processos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Propostas
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Nova Proposta Inicial</a>
+							<a class="dropdown-item" href="#">Minhas Propostas</a>
+							<a class="dropdown-item" href="#">Propostas de que Participo</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Solicitações
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Cadastro de Reunião</a>
+							<a class="dropdown-item" href="#">Propostas de que Participo</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Manuais</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+					<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
+				</form>
+			</div>
+        </nav>
+        
+        <ul class="tabs with-content">
+            <li>
+                <a href="#" data-tab="identificacao_processo">Identificação do Processo</a>
+            </li>
+            <li>
+                <a href="#" data-tab="dados_gerais_projeto">Dados Gerais do Projeto</a>
+            </li>
+            <li>
+                <a href="#" data-tab="rs_uss">R$ / US$</a>
+            </li>
+            <li>
+                <a href="#" data-tab="documentos">Documentos</a>
+            </li>
+            <li>
+                <a href="#" data-tab="observacoes_manifestacoes">Observações / Manifestações</a>
+            </li>                   
+        </ul>
+    </body>
+</html>
