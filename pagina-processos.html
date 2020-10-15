@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
 		<script type="text/javascript" src="js/sage-fapesp.js"></script>
     </head>
-    <body class="processos">
+    <body class="initial-teste">
 
         <section id="linguagem" class="row justify-content-end">	
 			<section class="col-12 col-sm-3 col-md-3 col-xs-3">
@@ -35,7 +35,7 @@
 				<p class="text-white" class="align-middle">Bem vindo(a), Administrador do Sistema</p>
 			</div>
 			<div class="user-barra-titulo" class="col-4" class="row justify-content-end">
-				<img id="icone-user" src="img/icon_user.png" class="rounded float-right" alt="Foto de Perfil">
+				<img id="icone-user" src="img/icon-user.png" class="rounded float-right" alt="Foto de Perfil">
 			</div>
 		</div>
 
@@ -58,7 +58,7 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="#">Nova Proposta Inicial</a>
-							<a class="dropdown-item" href="propostas.html">Minhas Propostas</a>
+							<a class="dropdown-item" href="#">Minhas Propostas</a>
 							<a class="dropdown-item" href="#">Propostas de que Participo</a>
 						</div>
 					</li>
@@ -82,22 +82,84 @@
 			</div>
         </nav>
         
-        <ul class="tabs with-content">
-            <li>
-                <a href="#" data-tab="identificacao_processo">Identificação do Processo</a>
-            </li>
-            <li>
-                <a href="#" data-tab="dados_gerais_projeto">Dados Gerais do Projeto</a>
-            </li>
-            <li>
-                <a href="#" data-tab="rs_uss">R$ / US$</a>
-            </li>
-            <li>
-                <a href="#" data-tab="documentos">Documentos</a>
-            </li>
-            <li>
-                <a href="#" data-tab="observacoes_manifestacoes">Observações / Manifestações</a>
-            </li>                   
-        </ul>
+		
+		<div id="informacoes-home">
+
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<a class="nav-link active" id="pills-id_processo-tab" data-toggle="pill" href="#pills-id_processo" role="tab" aria-controls="pills-id_processo" aria-selected="true">Identificação do Processo</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="pills-dados_gerais_projeto-tab" data-toggle="pill" href="#pills-dados_gerais_projeto" role="tab" aria-controls="pills-dados_gerais_projeto" aria-selected="false">Dados Gerais do Projeto</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="pills-rs_uss-tab" data-toggle="pill" href="#pills-rs_uss" role="tab" aria-controls="pills-rs_uss" aria-selected="false">R$ / US$</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="pills-documentos-tab" data-toggle="pill" href="#pills-documentos" role="tab" aria-controls="pills-documentos" aria-selected="false">Documentos</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="pills-obs_man-tab" data-toggle="pill" href="#pills-obs_man" role="tab" aria-controls="pills-obs_man" aria-selected="false">Observações / Manifestações</a>
+				</li>                   
+			</ul>
+
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-id_processo" role="tabpanel" aria-labelledby="pills-id_processo-tab">
+					<table class="table table-borderless">
+						<tbody>
+							<tr>
+								<th scope="row">Grupo de Financiamento</th>
+								<td>Bolsa no País</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Linha de Fomento</th>
+								<td>Bolsas Concedidas como Itens Orçamentários em Auxílios / BCO - Treinamento Técnico / Fluxo Contínuo</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Beneficiário</th>
+								<td>Nome do Beneficiário</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Responsável</th>
+								<td>Nome do Responsável</td>
+							  </tr>	
+							  <tr>
+								<th scope="row">Data de Início</th>
+								<td>01/03/2019</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Processo Vinculado</th>
+								<th scope="col">Responsável</th>
+								<td>Nome do Responsável</td>
+								<th scope="col">Título</th>
+								<td rowspan="3">Título</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Data de Abertura</th>
+								<td>15/02/2019</td>
+							  </tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="pills-dados_gerais_projeto" role="tabpanel" aria-labelledby="pills-dados_gerais_projeto-tab"></div>
+				<div class="tab-pane fade" id="pills-rs_uss" role="tabpanel" aria-labelledby="pills-rs_uss-tab">...</div>
+				<div class="tab-pane fade" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">...</div>
+				<div class="tab-pane fade" id="pills-obs_man" role="tabpanel" aria-labelledby="pills-obs_man-tab">...</div>
+			</div>
+		</div>
+		
+		<section id="footer">
+			<div class="informacoes-footer" >
+				<p class="text-white">Entre em contato:  +55 (11) 3838-4000</p>
+				<p class="text-white"> FAPESP - Fundação de Amparo à Pesquisa do Estado de São Paulo</p>
+				<p><img id="logo-fapesp-footer" src="img/logo-fapesp.png"  alt="Logo Fapesp"></p>
+			<div>	
+		</section>
+
+		<script src="js/jquery-3.5.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/sage-fapesp.js"></script>
     </body>
 </html>
