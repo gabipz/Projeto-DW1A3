@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>SAGe - Página Inicial</title>
+		<title>SAGe - Processos</title>
 		<link rel="shortcut icon" href="img/icon-sage.png">
 		<link rel ="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
@@ -46,8 +46,12 @@
 					<li class="nav-item">
 						<a class="nav-link" href="pagina-inicial.html">Página Inicial</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Meus Dados</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meus Dados</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Alteração de Cadastro</a>
+							<a class="dropdown-item" href="#">Alteração de Senha</a>
+							</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="pagina-processos.html">Processos</a>
@@ -125,18 +129,24 @@
 							  </tr>	
 							  <tr>
 								<th scope="row">Data de Início</th>
-								<td>01/03/2019</td>
+								<td>DD/MM/AAAA</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Vínculo Institucional do Processo</th>
+								<th scope="col">Instituição de Pesquisa / Empresa:</th>
+								<th scope="col">Departamento:</th>
+
 							  </tr>
 							  <tr>
 								<th scope="row">Processo Vinculado</th>
 								<th scope="col">Responsável</th>
-								<td>Nome do Responsável</td>
+								<td scope="row">Nome do Responsável</td>
 								<th scope="col">Título</th>
 								<td rowspan="3">Título</td>
 							  </tr>
 							  <tr>
 								<th scope="row">Data de Abertura</th>
-								<td>15/02/2019</td>
+								<td>DD/MM/AAAA</td>
 							  </tr>
 						</tbody>
 					</table>
