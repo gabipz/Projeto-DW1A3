@@ -88,63 +88,70 @@
         
 		
 		<div id="informacoes-home">
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<ul class="nav nav-pills mb-2 px-2" id="pills-tab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link active" id="pills-id_processo-tab" data-toggle="pill" href="#pills-id_processo" role="tab" aria-controls="pills-id_processo" aria-selected="true">Identificação do Processo</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="pills-dados_gerais_projeto-tab" data-toggle="pill" href="#pills-dados_gerais_projeto" role="tab" aria-controls="pills-dados_gerais_projeto" aria-selected="false">Dados Gerais do Projeto</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="pills-rs_uss-tab" data-toggle="pill" href="#pills-rs_uss" role="tab" aria-controls="pills-rs_uss" aria-selected="false">R$ / US$</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="pills-documentos-tab" data-toggle="pill" href="#pills-documentos" role="tab" aria-controls="pills-documentos" aria-selected="false">Documentos</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="pills-obs_man-tab" data-toggle="pill" href="#pills-obs_man" role="tab" aria-controls="pills-obs_man" aria-selected="false">Observações / Manifestações</a>
+						</li>                   
+					</ul>
+			</div>
+		</div>
 
-			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-				<li class="nav-item" role="presentation">
-					<a class="nav-link active" id="pills-id_processo-tab" data-toggle="pill" href="#pills-id_processo" role="tab" aria-controls="pills-id_processo" aria-selected="true">Identificação do Processo</a>
-				</li>
-				<li class="nav-item" role="presentation">
-					<a class="nav-link" id="pills-dados_gerais_projeto-tab" data-toggle="pill" href="#pills-dados_gerais_projeto" role="tab" aria-controls="pills-dados_gerais_projeto" aria-selected="false">Dados Gerais do Projeto</a>
-				</li>
-				<li class="nav-item" role="presentation">
-					<a class="nav-link" id="pills-rs_uss-tab" data-toggle="pill" href="#pills-rs_uss" role="tab" aria-controls="pills-rs_uss" aria-selected="false">R$ / US$</a>
-				</li>
-				<li class="nav-item" role="presentation">
-					<a class="nav-link" id="pills-documentos-tab" data-toggle="pill" href="#pills-documentos" role="tab" aria-controls="pills-documentos" aria-selected="false">Documentos</a>
-				</li>
-				<li class="nav-item" role="presentation">
-					<a class="nav-link" id="pills-obs_man-tab" data-toggle="pill" href="#pills-obs_man" role="tab" aria-controls="pills-obs_man" aria-selected="false">Observações / Manifestações</a>
-				</li>                   
-			</ul>
-
-			<div class="tab-content table-responsive" id="pills-tabContent">
+			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="pills-id_processo" role="tabpanel" aria-labelledby="pills-id_processo-tab">
-					<table class="table table-borderless">
-						<tbody>
-							<tr>
-								<th scope="row">Processo</th>
-								<td>Ano/Número do Processo</td>
-							</tr>
-							<tr>
-								<th scope="row">Grupo de Financiamento</th>
-								<td>Bolsa no País</td>
-							</tr>
-							<tr>
-								<th scope="row">Linha de Fomento</th>
-								<td>Tipo de Bolsa</td>
-							</tr>
-							<tr>
-								<th scope="row">Beneficiário</th>
-								<td>Nome do Beneficiário</td>
-							</tr>
-							<tr>
-								<th scope="row">Responsável</th>
-								<td>Nome do Responsável</td>
-							</tr>	
-							<tr>
-								<th scope="row">Data de Início</th>
-								<td>DD/MM/AAAA</td>
-							</tr>
-							<tr>
-								<th scope="row">Vínculo Institucional do Processo</th>
-								<td>Nome da Instituição</td>
-							</tr>
-							<tr>
-								<th scope="row">Processo Vinculado</th>
-								<td>Ano/Número do Processo</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<table class="table table-borderless">
+								<tbody>
+									<tr>
+										<th scope="row">Processo</th>
+										<td>Ano/Número do Processo</td>
+									</tr>
+									<tr>
+										<th scope="row">Grupo de Financiamento</th>
+										<td>Bolsa no País</td>
+									</tr>
+									<tr>
+										<th scope="row">Linha de Fomento</th>
+										<td>Tipo de Bolsa</td>
+									</tr>
+									<tr>
+										<th scope="row">Beneficiário</th>
+										<td>Nome do Beneficiário</td>
+									</tr>
+									<tr>
+										<th scope="row">Responsável</th>
+										<td>Nome do Responsável</td>
+									</tr>	
+									<tr>
+										<th scope="row">Data de Início</th>
+										<td>DD/MM/AAAA</td>
+									</tr>
+									<tr>
+										<th scope="row">Vínculo Institucional do Processo</th>
+										<td>Nome da Instituição</td>
+									</tr>
+									<tr>
+										<th scope="row">Processo Vinculado</th>
+										<td>Ano/Número do Processo</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>	
 				</div>
 				<div class="tab-pane fade" id="pills-dados_gerais_projeto" role="tabpanel" aria-labelledby="pills-dados_gerais_projeto-tab"></div>
 				<div class="tab-pane fade" id="pills-rs_uss" role="tabpanel" aria-labelledby="pills-rs_uss-tab">...</div>
