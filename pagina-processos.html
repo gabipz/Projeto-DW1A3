@@ -94,7 +94,8 @@
 				</form>
 			</div>
         </nav>
-        
+		
+		<!-- Nav dos "Meus Processos (Gustavo)-->
 		<div id="informacoes-home">
 			<div class="row justify-content-center"> <!-- Centralizando nav (Gabriela)-->
 				<div class="col-auto"> <!-- Centralizando nav (Gabriela)-->
@@ -103,7 +104,7 @@
 							<a class="nav-link active" id="pills-id_processo-tab" data-toggle="pill" href="#pills-id_processo" role="tab" aria-controls="pills-id_processo" aria-selected="true">Identificação do Processo</a>
 						</li>
 						<li class="nav-item" role="presentation">
-							<a class="nav-link" id="pills-dados_gerais_projeto-tab" data-toggle="pill" href="#pills-dados_gerais_projeto" role="tab" aria-controls="pills-dados_gerais_projeto" aria-selected="false">Dados Gerais do Projeto</a>
+							<a class="nav-link" id="pills-responsabilidades-tab" data-toggle="pill" href="#pills-responsabilidades" role="tab" aria-controls="pills-responsabilidades" aria-selected="false">Responsabilidades</a>
 						</li>
 						<li class="nav-item" role="presentation">
 							<a class="nav-link" id="pills-rs_uss-tab" data-toggle="pill" href="#pills-rs_uss" role="tab" aria-controls="pills-rs_uss" aria-selected="false">R$ / US$</a>
@@ -118,10 +119,11 @@
 			</div>
 		</div>
 
+		<!-- Tabela Identificação do Processo (Gustavo)-->
 			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="pills-id_processo" role="tabpanel" aria-labelledby="pills-id_processo-tab">
-					<div class="row justify-content-center">
-						<div class="col-auto">
+					<div class="row justify-content-center"> <!-- Centralizando tabela (Gabriela)-->
+						<div class="col-auto"> <!-- Centralizando tabela (Gabriela)-->
 							<table class="table table-borderless">
 								<tbody>
 									<tr>
@@ -161,7 +163,21 @@
 						</div>
 					</div>	
 				</div>
-				<div class="tab-pane fade" id="pills-dados_gerais_projeto" role="tabpanel" aria-labelledby="pills-dados_gerais_projeto-tab"></div>
+
+				<!-- Formulário das responsabilidades (Gabriela)-->
+				<div class="tab-pane fade" id="pills-responsabilidades" role="tabpanel" aria-labelledby="pills-responsabilidades-tab">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<select class="form-control">
+								<option selected>Escolha a opção</option>
+								<option>Elaborar Ata de Defesa</option>
+								<option>Elaborar Relatório Científico</option>
+								<option>Elaborar/Submeter Solicitação de Mudanças</option>
+								<option>Emitir Contratos e Aditivos</option>
+							</select>
+						</div>
+					</div>
+				</div>
 				<div class="tab-pane fade" id="pills-rs_uss" role="tabpanel" aria-labelledby="pills-rs_uss-tab">...</div>
 				<div class="tab-pane fade" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">...</div>
 				<div class="tab-pane fade" id="pills-obs_man" role="tabpanel" aria-labelledby="pills-obs_man-tab">...</div>
