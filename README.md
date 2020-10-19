@@ -32,6 +32,8 @@ O site escolhido foi o [SAGe - Sistema de Apoio à Gestão](https://sage.fapesp.
 
 - [Meus Processos](https://gabipz.github.io/Projeto-DW1A3/pagina-processos.html)
 
+- [Mapa do Site](https://gabipz.github.io/Projeto-DW1A3/pagina-mapasite.html)
+
 ## Recursos
 
 - Bootstrap 4.5.2
