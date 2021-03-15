@@ -6,13 +6,11 @@ Projeto criado para disciplina de Desenvolvimento Web do IFSP, cujo o propósito
 
 O site escolhido foi o [SAGe - Sistema de Apoio à Gestão](https://sage.fapesp.br/), que é um sistema que tem por objetivo facilitar os processos e projetos da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), destinada a pesquisadores e bolsistas do estado de São Paulo.
 
-As imagens são de 2020:
+As imagens a seguir são de 2020 e mostram a página de login e inicial do SAGe:
 
 ![Página login SAGe](https://github.com/gabipz/Projeto-DW1A3/blob/master/img/img-readme/sage-antigo-login.JPG)
 
 ![Página home SAGe](https://github.com/gabipz/Projeto-DW1A3/blob/master/img/img-readme/sage-antigo-home.png)
-
-
 
 **Problemas de usabilidade:**
 
